@@ -6,11 +6,9 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix='$')
 
-client = discord.Client()@client.event
 async def on_ready():
     print("OWO TIME")
     await client.change_presence(game=discord.Game(name=""))
-@client.event
 async def on_message(message):
     if message.author == client.user:
         return
