@@ -1,3 +1,4 @@
+import client as client
 import discord
 import os
 TOKEN = os.environ['DISCORD_TOKEN']
@@ -5,6 +6,16 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix='$')
 
+client = discord.Client()@client.event
+async def on_ready():
+    print("OWO TIME")
+    await client.change_presence(game=discord.Game(name=""))
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+    if message.content == "WELOME":
+        await client.send_message(message.channel, "WELOME")
 @bot.command()
 async def rubyscript(ctx, input: str, seed: int):
     import math
