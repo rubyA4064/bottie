@@ -15,6 +15,25 @@ async def on_message(message):
     if message.content == "WELOME":
         await client.send_message(message.channel, "WELOME")
 @bot.command()
+async def testieng(ctx, input: str, seed: int):
+    import random
+    print("Input a string to be encoded:")
+    s = input()
+    print("Input a seed (integer):")
+    seed = int(input())
+    if seed>100:
+        seed=random.randint(0,101)
+    encoded = ""
+    i = 0
+    j = seed
+    for j in range(seed, len(s)):
+        char = chr(int(str(ord(s[j]))[::-1]))
+        encoded = char + encoded
+    for i in range(0, seed):
+        char = chr(int(str(ord(s[i]))[::-1]))
+        encoded = char + encoded
+    print(encoded)
+@bot.command()
 async def rubyscript(ctx, input: str, seed: int):
     import math
     print("What would you like to encode?")
