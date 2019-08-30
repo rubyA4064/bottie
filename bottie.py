@@ -57,6 +57,10 @@ async def rubyscript(ctx, input: str, seed: int):
 client = discord.Client()
 
 @bot.event
+async def testing(ctx, input: str, seed: int):
+
+    output="boooooop"
+    await ctx.send('`' + output + '`')
 async def on_ready():
     print('Logged in as')
     print(bot.user.name)
