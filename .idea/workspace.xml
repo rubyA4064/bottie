@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec6be0c-3be6-49da-b3fa-175b7ffbbd71" name="Default Changelist" comment="" />
+    <list default="true" id="4ec6be0c-3be6-49da-b3fa-175b7ffbbd71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottie.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottie.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DISCORD_TOKEN" value="NjE2ODIxODE1MzE0MDg3OTQ4.XWiKQA.uFw8NY5iTxeOcF3TktjJEY28Gn4" />
+        <env name="DISCORD_TOKEN" value="NjE2ODIxODE1MzE0MDg3OTQ4.XWrUew.yo6Y3uZ1GMW8bs0PfLbfFhFDvu0" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\imcfa\PycharmProjects\bot\virtualenv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
